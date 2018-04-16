@@ -1,5 +1,7 @@
 # CyberSourceClient
 
+[![Build Status](https://travis-ci.org/cdtweb/cybersource-client.svg?branch=master)](https://travis-ci.org/cdtweb/cybersource-client)
+
 A client library for CyberSource's Simple Order API.
 
 # Testing
