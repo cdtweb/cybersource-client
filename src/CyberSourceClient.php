@@ -152,11 +152,6 @@ class CyberSourceClient
     protected $lastResponse;
 
     /**
-     * @var bool $withAdvancedFraudScreen
-     */
-    protected $withAdvancedFraudScreen = false;
-
-    /**
      * @param string $merchantId
      * @param string $apiKey
      * @param bool $test
@@ -350,14 +345,6 @@ class CyberSourceClient
     public function getLastResponse()
     {
         return $this->lastResponse;
-    }
-
-    /**
-     * Enable Advanced Fraud Screen (AVS). Disabled by default.
-     */
-    public function enableAdvancedFraudScreen()
-    {
-        $this->withAdvancedFraudScreen = true;
     }
 
     /**
