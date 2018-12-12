@@ -4,6 +4,12 @@
 
 A client library for CyberSource's Simple Order API.
 
+# Install
+
+```
+composer require cdtweb/cybersource-client
+```
+
 # Testing
 
 Copy `.env.dist` to `.env` and update it with your test account keys to run 
